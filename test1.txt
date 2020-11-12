@@ -1,0 +1,422 @@
+
+
+
+
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~ (master)
+$ pwd
+/c/Users/charles.nyakumbo
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~ (master)
+$ ls
+'3D Objects'             NTUSER.DAT
+ AppData                 ntuser.dat.LOG1
+'Application Data'       ntuser.dat.LOG2
+ Contacts                NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TM.blf
+ Cookies                 NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000001.regtrans-ms
+ Desktop                 NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000002.regtrans-ms
+ Documents               ntuser.ini
+ Downloads               OneDrive
+ Favorites              'OneDrive - NTT'
+ IntelGraphicsProfiles   Pictures
+ iperf                   PrintHood
+ Links                   Recent
+'Local Settings'        'Saved Games'
+ Microsoft               Searches
+ MicrosoftEdgeBackups    SendTo
+ Music                  'Start Menu'
+'My Documents'           Templates
+ NetHood                 Videos
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~ (master)
+$ ls -a
+ .                      'Local Settings'
+ ..                      Microsoft
+ .bash_history           MicrosoftEdgeBackups
+ .cisco                  Music
+ .conda                 'My Documents'
+ .git                    NetHood
+ .gitconfig              NTUSER.DAT
+ .gnutls                 ntuser.dat.LOG1
+ .matplotlib             ntuser.dat.LOG2
+ .nuget                  NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TM.blf
+ .TianTianVM             NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000001.regtrans-ms
+ .viminfo                NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000002.regtrans-ms
+ .vscode                 ntuser.ini
+'3D Objects'             OneDrive
+ AppData                'OneDrive - NTT'
+'Application Data'       Pictures
+ Contacts                PrintHood
+ Cookies                 Recent
+ Desktop                'Saved Games'
+ Documents               Searches
+ Downloads               SendTo
+ Favorites              'Start Menu'
+ IntelGraphicsProfiles   Templates
+ iperf                   Videos
+ Links
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~ (master)
+$ rm -rf .git
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~
+$ ls -a
+ .                      'Local Settings'     
+ ..                      Microsoft
+ .bash_history           MicrosoftEdgeBackups
+ .cisco                  Music
+ .conda                 'My Documents'
+ .gitconfig              NetHood
+ .gnutls                 NTUSER.DAT
+ .matplotlib             ntuser.dat.LOG1
+ .nuget                  ntuser.dat.LOG2
+ .TianTianVM             NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TM.blf
+ .viminfo                NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000001.regtrans-ms
+ .vscode                 NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000002.regtrans-ms
+'3D Objects'             ntuser.ini
+ AppData                 OneDrive
+'Application Data'      'OneDrive - NTT'
+ Contacts                Pictures
+ Cookies                 PrintHood
+ Desktop                 Recent
+ Documents              'Saved Games'
+ Downloads               Searches
+ Favorites               SendTo
+ IntelGraphicsProfiles  'Start Menu'
+ iperf                   Templates
+ Links                   Videos
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~
+$ cd
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~
+$ cd Documents
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Documents
+$ cd ..
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~
+$ cd Desktop
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop
+$ ls
+ _Getintopc.com_koplayer-2.0.0          eSHOP.url                          Orange.lnk                'Tap certs'
+'~$h year project documentation.docx'   Git                                personal                   Test
+ AI                                    'Git Test'                          Power                      UIPath
+'All Regions'                           GoodNovel.lnk                     'Power Automate'           'Visual Studio Code.lnk'  
+ desktop.ini                           'HR Wizard.url'                    'Power BI'                  whatsap
+ Download                               icons                              Python                     WhatsApp.lnk
+'dukto - Shortcut.lnk'                 'industrial training report.docx'   SAFe
+ DuktoR6                               'Microsoft Edge.lnk'               'SNI Services Portal.url'
+ enter                                 'Microsoft Teams.lnk'               ssms
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop
+$ cd 'Git Test'
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ ls
+nyakumbo  nyakumbo.pub  README.md  test1.txt  test2.txt  test3.txt  test4.txt  test5.txt  test6.txt
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ touch index.html
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ code .
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git remote -v
+origin  https://github.com/charlesnyakumbo/nyaks-github.git (fetch)
+origin  https://github.com/charlesnyakumbo/nyaks-github.git (push)
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git add index.html
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        nyakumbo
+        nyakumbo.pub
+
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git commit -m "Added an index"
+[master 63f4355] Added an index
+ Committer: Charles Nyakumbo (MEA) <charles.nyakumbo@dimensiondata.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (21/21), 1.97 KiB | 336.00 KiB/s, done.
+Total 21 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/charlesnyakumbo/nyaks-github/pull/new/master
+remote:
+To https://github.com/charlesnyakumbo/nyaks-github.git
+ * [new branch]      master -> master
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~ (master)
+$ pwd
+/c/Users/charles.nyakumbo
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~ (master)
+$ ls
+'3D Objects'             NTUSER.DAT
+ AppData                 ntuser.dat.LOG1
+'Application Data'       ntuser.dat.LOG2
+ Contacts                NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TM.blf
+ Cookies                 NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000001.regtrans-ms
+ Desktop                 NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000002.regtrans-ms
+ Documents               ntuser.ini
+ Downloads               OneDrive
+ Favorites              'OneDrive - NTT'
+ IntelGraphicsProfiles   Pictures
+ iperf                   PrintHood
+ Links                   Recent
+'Local Settings'        'Saved Games'
+ Microsoft               Searches
+ MicrosoftEdgeBackups    SendTo
+ Music                  'Start Menu'
+'My Documents'           Templates
+ NetHood                 Videos
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~ (master)
+$ ls -a
+ .                      'Local Settings'
+ ..                      Microsoft
+ .bash_history           MicrosoftEdgeBackups
+ .cisco                  Music
+ .conda                 'My Documents'
+ .git                    NetHood
+ .gitconfig              NTUSER.DAT
+ .gnutls                 ntuser.dat.LOG1
+ .matplotlib             ntuser.dat.LOG2
+ .nuget                  NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TM.blf
+ .TianTianVM             NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000001.regtrans-ms
+ .viminfo                NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000002.regtrans-ms
+ .vscode                 ntuser.ini
+'3D Objects'             OneDrive
+ AppData                'OneDrive - NTT'
+'Application Data'       Pictures
+ Contacts                PrintHood
+ Cookies                 Recent
+ Desktop                'Saved Games'
+ Documents               Searches
+ Downloads               SendTo
+ Favorites              'Start Menu'
+ IntelGraphicsProfiles   Templates
+ iperf                   Videos
+ Links
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~ (master)
+$ rm -rf .git
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~
+$ ls -a
+ .                      'Local Settings'     
+ ..                      Microsoft
+ .bash_history           MicrosoftEdgeBackups
+ .cisco                  Music
+ .conda                 'My Documents'
+ .gitconfig              NetHood
+ .gnutls                 NTUSER.DAT
+ .matplotlib             ntuser.dat.LOG1
+ .nuget                  ntuser.dat.LOG2
+ .TianTianVM             NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TM.blf
+ .viminfo                NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000001.regtrans-ms
+ .vscode                 NTUSER.DAT{0f788180-c4cf-11ea-961c-a87eeab86c84}.TMContainer00000000000000000002.regtrans-ms
+'3D Objects'             ntuser.ini
+ AppData                 OneDrive
+'Application Data'      'OneDrive - NTT'
+ Contacts                Pictures
+ Cookies                 PrintHood
+ Desktop                 Recent
+ Documents              'Saved Games'
+ Downloads               Searches
+ Favorites               SendTo
+ IntelGraphicsProfiles  'Start Menu'
+ iperf                   Templates
+ Links                   Videos
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~
+$ cd
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~
+$ cd Documents
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Documents
+$ cd ..
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~
+$ cd Desktop
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop
+$ ls
+ _Getintopc.com_koplayer-2.0.0          eSHOP.url                          Orange.lnk                'Tap certs'
+'~$h year project documentation.docx'   Git                                personal                   Test
+ AI                                    'Git Test'                          Power                      UIPath
+'All Regions'                           GoodNovel.lnk                     'Power Automate'           'Visual Studio Code.lnk'  
+ desktop.ini                           'HR Wizard.url'                    'Power BI'                  whatsap
+ Download                               icons                              Python                     WhatsApp.lnk
+'dukto - Shortcut.lnk'                 'industrial training report.docx'   SAFe
+ DuktoR6                               'Microsoft Edge.lnk'               'SNI Services Portal.url'
+ enter                                 'Microsoft Teams.lnk'               ssms
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop
+$ cd 'Git Test'
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ ls
+nyakumbo  nyakumbo.pub  README.md  test1.txt  test2.txt  test3.txt  test4.txt  test5.txt  test6.txt
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ touch index.html
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ code .
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git remote -v
+origin  https://github.com/charlesnyakumbo/nyaks-github.git (fetch)
+origin  https://github.com/charlesnyakumbo/nyaks-github.git (push)
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git add index.html
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        nyakumbo
+        nyakumbo.pub
+
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git commit -m "Added an index"
+[master 63f4355] Added an index
+ Committer: Charles Nyakumbo (MEA) <charles.nyakumbo@dimensiondata.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$ git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (21/21), 1.97 KiB | 336.00 KiB/s, done.
+Total 21 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/charlesnyakumbo/nyaks-github/pull/new/master
+remote:
+To https://github.com/charlesnyakumbo/nyaks-github.git
+ * [new branch]      master -> master
+
+charles.nyakumbo@NyakumboCharles MINGW64 ~/Desktop/Git Test (master)
+$
